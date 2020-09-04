@@ -1,0 +1,213 @@
+.resetpass-box {
+    width: 100%;
+    height: 100%;
+    padding-top: 84px;
+    position: relative;
+    background: url('../../assets/img/login-bei.png');
+    background-size: cover;
+    .login-top {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #FFFFFF;
+        line-height: 84px;
+        z-index: 2;
+        align-items: center;
+        height: 84px;
+
+        .width-main {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 243px;
+            display: inline-block;
+            height: auto;
+            float: left;
+            margin-top: 25px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .text-right {
+            float: right;
+            display: flex;
+            text-align: right;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            align-items: center;
+            color: #000000;
+            cursor: pointer;
+
+            .icon-img {
+                font-size: 25px;
+                margin-right: 10px;
+                color: #0D1731;
+                display: inline-block;
+            }
+
+            img {
+                width: 25px;
+                margin-right: 10px;
+            }
+        }
+
+        .text-right:hover {
+            color: #034EA2;
+
+            .icon-img {
+                color: #034EA2;
+            }
+        }
+    }
+
+    .forget-pass {
+        width: 700px;
+        padding: 20px;
+        height: auto;
+        position: absolute;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        background: white;
+
+        .ant-form {
+            width: 70%;
+            margin: 0 auto;
+
+            .ant-form-explain {
+                padding-left: 25%;
+            }
+        }
+
+        .rules {
+            color: #999999;
+            font-size: 12px;
+            padding-left: 25%;
+        }
+
+        .get-code {
+            cursor: pointer;
+            color: #FA6400;
+            font-size: 12px;
+        }
+
+        .ant-form-item-control {
+            margin-bottom: 5px;
+
+            // display: flex;
+            // justify-content: flex-end;
+            .ant-col-5 {
+                text-align: right;
+                margin-right: 20px;
+                color: #2A283D;
+            }
+
+            input,
+            .ant-input-password {
+                width: 329px;
+            }
+        }
+
+        .auth-code {
+            text-align: right;
+
+            .ant-tag {
+                height: 100%;
+                display: inline-block;
+            }
+        }
+
+        .footer-submit {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+
+            .finsh-save {
+                width: 380px;
+                height: 40px;
+                background: #034EA2;
+                border-radius: 5px;
+                color: #fff;
+                line-height: 40px;
+                outline: none;
+            }
+        }
+        .footer-submit:hover{
+            border: none;
+        }
+        .ant-btn:not([disabled]):hover {
+            text-decoration: none;
+            /* border: none; */
+            outline: none;
+            /* outline: none!important; */
+            border-color:#fff;
+        }
+        h2 {
+            text-align: center;
+            color: #333333;
+            font-size: 26px;
+            border-bottom: 1px solid #F3F3F3;
+            height: 60px;
+            line-height: 45px;
+            margin-bottom: 26px;
+        }
+
+        .forget-pass-top-title {
+            position: absolute;
+            top: -50px;
+            width: 100%;
+            font-weight: 500;
+            font-size: 14px;
+            // line-height: 14px;
+            display: flex;
+            align-items: center;
+            color: #6E7387;
+
+            margin-left: -20px;
+            cursor: pointer
+        ;
+            .img{
+                margin-right: 10px;
+                display: inline-block;
+                width: 23px;
+                height: 23px;
+                img{
+                    width: 100%;height: 100%;
+                }
+            }
+        }
+    }
+}
+
+.footer-forget {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+
+
+    position: absolute;
+    bottom: 48px;
+    align-items: center;
+    color: #0D1731;
+    opacity: 0.3;
+    text-align: center;
+
+    a {
+        color: #0D1731;
+    }
+}
+.img-password{
+    cursor: pointer;
+}

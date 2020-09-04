@@ -1,0 +1,568 @@
+.academicspace_home_one {
+
+
+  .content_1_w {
+    background: #fff;
+
+    .content_1 {
+      width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 32px 0 45px;
+
+      >div:nth-of-type(1) {
+        width: 550px;
+
+        >h2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          b {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 29px;
+            color: #000;
+
+            &::before {
+              content: "";
+              display: inline-block;
+              width: 5px;
+              height: 23px;
+              background: #66BB6A;
+              vertical-align: -4px;
+              margin-right: 20px;
+            }
+          }
+
+          span {
+            font-size: 12px;
+            line-height: 25px;
+            color: #727586;
+            cursor: pointer;
+            padding-right:14px;
+            background: url(../../../../assets/img/school-space/jt-ico.png)no-repeat right center;
+            background-size:7px 12px;
+          }
+        }
+
+        >dl {
+          display: flex;
+          justify-content: space-between;
+          margin: 29px 0;
+          cursor: pointer;
+
+          &:hover {
+            cursor: pointer;
+
+            >dd h2 {
+              color: #66BB6A;
+            }
+          }
+
+          >dt {
+            width: 60px;
+            height: 60px;
+            background: rgba(102, 187, 106, 0.1);
+            text-align: center;
+
+            h2 {
+              color: #66BB6A;
+              font-weight: 900;
+              font-size: 24px;
+              line-height: 25px;
+              margin: 6px 0 0 0;
+
+              &::after {
+                content: "";
+                display: block;
+                width: 50px;
+                margin: 0 auto;
+                height: 1px;
+                background: #66BB6A;
+                margin-bottom: 5px;
+              }
+            }
+
+            p {
+              font-size: 12px;
+              color: #66BB6A;
+            }
+          }
+
+          >dd {
+            width: 466px;
+
+            h2 {
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              color: #091543;
+              font-size: 16px;
+              margin-bottom: 10px;
+            }
+
+            p {
+              font-size: 12px;
+              color: #727586;
+              display: -webkit-box;
+              overflow: hidden;
+              -webkit-line-clamp: 2;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+            }
+          }
+        }
+      }
+
+      >div:nth-of-type(2) {
+        width: 550px;
+
+        >h2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 40px;
+
+          b {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 29px;
+            color: #000;
+
+            &::before {
+              content: "";
+              display: inline-block;
+              width: 5px;
+              height: 23px;
+              background: #1565D8;
+              vertical-align: -4px;
+              margin-right: 20px;
+            }
+          }
+
+          span {
+            font-size: 12px;
+            line-height: 25px;
+            color: #727586;
+            cursor: pointer;
+            padding-right:14px;
+            background: url(../../../../assets/img/school-space/jt-ico.png)no-repeat right center;
+            background-size:7px 12px;
+          }
+        }
+
+        >dl {
+          display: flex;
+          justify-content: space-between;
+          cursor: pointer;
+
+          &:nth-of-type(1) {
+            margin-bottom: 34px;
+          }
+
+          dt {
+            width: 237px;
+            height: 148px;
+            border-radius: 7px;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          dd {
+            width: 288px;
+
+            h2 {
+              font-size: 16px;
+              line-height: 23px;
+              color: #091543;
+              margin-bottom: 20px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 150%;
+              color: #727586;
+              display: -webkit-box;
+              overflow: hidden;
+              -webkit-line-clamp: 4;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+            }
+
+            p:nth-of-type(2) {
+              text-align: right;
+              margin-top: 10px;
+              color: #D0D2DB;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content_2_w {
+    background: #EFF5F9;
+    padding: 40px 0 54px;
+
+    .content_2 {
+      width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      >div:nth-of-type(1) {
+        width: 667px;
+        background: #fff;
+        padding: 30px 25px 25px 25px;
+        box-sizing: border-box;
+
+        >h2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+          b {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 29px;
+            color: #000;
+
+            &::before {
+              content: "";
+              display: inline-block;
+              width: 5px;
+              height: 23px;
+              background: #66BB6A;
+              vertical-align: -4px;
+              margin-right: 20px;
+            }
+          }
+
+          span {
+            font-size: 12px;
+            line-height: 25px;
+            color: #727586;
+            padding-right:14px;
+            background: url(../../../../assets/img/school-space/jt-ico.png)no-repeat right center;
+            background-size:7px 12px;
+          }
+        }
+
+        >div {
+          display: flex;
+          flex-wrap: wrap;
+          cursor: pointer;
+
+          dl {
+            width: 168px;
+            height: 50px;
+            margin: 9px 50px 9px 0;
+            background: #F0F8F0;
+            display: flex;
+            align-items: center;
+            transition: all 0.1s;
+            &:nth-child(3n) {
+              margin-right: 0;
+            }
+
+            dt {
+              margin: 0 10px 0 20px;
+
+              img {
+                vertical-align: -4px;
+                transform: scale(0.6);
+              }
+            }
+
+            dd {
+              color: #343F59;
+            }
+            .icon_t {
+              display: none;
+            }
+            &:hover {
+              background: #66BB6A;
+
+              .icon_s {
+                display: none;
+              }
+
+              .icon_t {
+                display: inline-block;
+              }
+
+              dd {
+                color: #fff;
+              }
+            }
+          }
+        }
+
+      }
+
+      >div:nth-of-type(2) {
+        width: 462px;
+        background: #fff;
+        padding: 30px 30px 25px;
+        box-sizing: border-box;
+
+        >h2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+          b {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 29px;
+            color: #000;
+
+            &::before {
+              content: "";
+              display: inline-block;
+              width: 5px;
+              height: 23px;
+              background: #3A89FD;
+              vertical-align: -4px;
+              margin-right: 20px;
+            }
+          }
+
+          span {
+            font-size: 12px;
+            line-height: 25px;
+            color: #727586;
+            padding-right:14px;
+            background: url(../../../../assets/img/school-space/jt-ico.png)no-repeat right center;
+            background-size:7px 12px;
+          }
+        }
+
+        >div {
+          display: flex;
+          flex-wrap: wrap;
+          cursor: pointer;
+
+          dl {
+            width: 180px;
+            height: 50px;
+            display: flex;
+            margin: 9px 30px 9px 0;
+            background: #EEF4FD;
+            align-items: center;
+            transition: all 0.1s;
+            &:nth-child(2n) {
+              margin-right: 0;
+            }
+
+            dt {
+              margin: 0 10px;
+
+              img {
+                vertical-align: -4px;
+                transform: scale(0.6);
+              }
+            }
+
+            dd {
+              color: #343F59;
+            }
+            .icon_b{
+              display: none;
+            }
+            &:hover {
+              background: #3A89FD;
+
+              .icon_a {
+                display: none;
+              }
+
+              .icon_b {
+                display: inline-block;
+              }
+
+              dd {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content_3_w {
+    background: #26A1b3 url("../../../../assets/img/acade/content3_bg.png");
+    background-size: 100% 100%;
+    height: 447px;
+
+    .content_3 {
+      width: 1200px;
+      margin: 0 auto;
+
+      >h1 {
+        font-size: 24px;
+        line-height: 35px;
+        color: #fff;
+        text-align: center;
+        padding: 48px 0;
+      }
+
+      >div {
+        display: flex;
+        flex-wrap: wrap;
+
+        dl {
+          width: 214px;
+          height: 94px;
+          margin: 0 13px 42px;
+          position: relative;
+          border-radius: 5px;
+          overflow: hidden;
+
+          dt {
+            img {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          dd {
+            position: relative;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.4);
+            height: 100%;
+
+            h2 {
+              font-size: 16px;
+              line-height: 23px;
+              color: #fff;
+              text-align: center;
+              margin: 0 0 5px;
+              padding-top: 27px;
+            }
+
+            p {
+              color: #fff;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content_4_w {
+    background: #E9F6F8;
+    padding-bottom: 64px;
+
+    .content_4 {
+      width: 1200px;
+      margin: 0 auto;
+
+      h1 {
+        font-size: 24px;
+        line-height: 35px;
+        color: #000;
+        text-align: center;
+        padding: 48px 0;
+      }
+
+      >div {
+        display: flex;
+        justify-content: space-between;
+
+        dl {
+          width: 280px;
+          background: #FFFFFF;
+          box-shadow: 3.2909px 9.8727px 32.909px rgba(7, 16, 48, 0.06);
+          border-radius: 4px;
+          padding: 20px 20px 34px 20px;
+          box-sizing: border-box;
+          cursor: pointer;
+
+          dt {
+            width: 240px;
+            height: 134px;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          dd {
+            h2 {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-size: 14px;
+              line-height: 20px;
+              color: #091543;
+              margin:10px 0;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 150%;
+              color: #727586;
+              display: -webkit-box;
+              overflow: hidden;
+              -webkit-line-clamp: 2;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content_5 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+
+    h1 {
+      font-size: 24px;
+      line-height: 35px;
+      color: #000;
+      text-align: center;
+      padding: 48px 0;
+    }
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      span {
+        width: 25%;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+        opacity: 0.4;
+        // margin-right: 142px;
+        line-height: 38px;
+        i{
+          list-style: none;
+          &:hover{
+            text-decoration:underline;
+          }
+        }
+        &:nth-child(4n) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

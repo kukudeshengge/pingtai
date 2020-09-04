@@ -1,0 +1,617 @@
+.ep_resources{
+    background: #fff;
+    .bg01{background: #EAF1FF;}
+    .bg02{background: #F7FAFF;}
+    .ep_top_wrap{
+        width: 1200px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto;
+
+        .eq_title{
+            font-family: "Noto Sans SC";
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 22px;
+            line-height: 50px;
+            
+            align-items: center;
+            color: #333333;
+    
+        }
+    
+        .eq_title_link01{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 120.7%;
+            text-align: right;
+            color: #333333;
+            line-height: 50px;
+            cursor: pointer;
+            position: relative;
+            &:hover {
+                text-decoration: underline;
+                
+            }
+            &::after{
+                content:"";
+                background: url("../../../../assets/img/resource_center/eq_title_ico.png") no-repeat;
+                background-size: contain;
+                width:18px;
+                height:18px;
+                position:absolute;
+                right: -23px;
+                top: 2px;
+                opacity: 1;
+            }
+        }
+        .college_list{
+            padding:70px;
+            
+            .college_list_item{
+                 
+                float: left;
+                width:116px;
+                //border:1px solid #999;
+                
+                //height: 116px;
+                margin-right:175px;
+                &:nth-child(4n) {
+                    margin-right: 0;
+                }
+                margin-bottom: 50px;
+                img{
+                    width: 116px;
+                    height: 116px;
+                }
+                p{
+                    display: block;
+                    margin-top:25px;
+                    width: 116px;
+                    text-align: center;
+
+                    font-family: "Noto Sans SC";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #333333;
+
+
+                }
+            }
+        }
+    }
+   
+    .eq_course_wrap{
+        width: 1200px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        // padding-bottom: 128px;
+        
+        .eq_course_text_title01{
+            font-family: "Noto Sans SC";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 35px;
+            color: #2A283D;
+            position: relative;
+            .squre{
+                margin-right:20px;
+                padding-left: 20px;
+                &::before{
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    background: #DE2B2B;
+                    display: inline-block;
+                    border-radius: 100%;
+                    position: absolute;
+                    left: 2px;
+                    top: 13px;
+                    
+                }
+                &::after {
+                    content: "|";
+                    margin-left: 20px;
+                    color: #ccc;
+                    position: relative;
+                    bottom: 1px;
+                  }
+                
+            }
+            
+
+        }
+        .eq_course_text01{
+            font-family: "Noto Sans SC";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 17px;
+            color: #888888;
+        }
+
+        .other_list{
+            //padding:70px;
+            overflow: auto;
+            .other_list_item{
+                 
+                float: left;
+                width:330px;
+                
+                margin-right:104px;
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+                //margin-bottom: 50px;
+                img{
+                    width: 100%;
+                    height: 150px;
+                }
+                p{
+                    display: block;
+                    //margin-top:25px;
+                    width: 100%;
+                    text-align: center;
+
+                    font-family: "Noto Sans SC";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #333333;
+
+
+                }
+            }
+        }
+        
+    }
+
+    .eq_cousetable_wrap{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25px;
+        .eq_cousetable_title01{
+            /* 蓝色 长条*/
+            width: 248px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            color:#fff;
+            font-size: 16px;
+            background: linear-gradient(100.82deg, #3B87FB 17.94%, #239ADD 92.95%);
+            border-top-left-radius:30px;
+            border-top-right-radius:5px;
+            border-bottom-right-radius:30px;
+            border-bottom-left-radius:5px;
+        }
+        .eq_cousetable_title02{
+            /* 橘黄 短 */
+            width: 104px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            color:#fff;
+            font-size: 16px;
+            background: linear-gradient(100.82deg, #FA6A01 17.94%, #FA8B02 92.95%);
+            border-top-left-radius:30px;
+            border-top-right-radius:5px;
+            border-bottom-right-radius:30px;
+            border-bottom-left-radius:5px;
+        }
+        .eq_cousetable_title03{
+            /* 红色 短 */
+            width: 142px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            color:#fff;
+            font-size: 16px;
+            background: #DE2B2B;
+            border-top-left-radius:30px;
+            border-top-right-radius:5px;
+            border-bottom-right-radius:30px;
+            border-bottom-left-radius:5px;
+        }
+        .eq_cousetable_list{
+            overflow: auto;
+            dl{
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 5px;
+                
+                &:nth-child(7n) {
+                    margin-right: 0;
+                }
+                dt{
+                    width: 154px;
+                    min-height: 34px;
+                    line-height: 34px;
+                    left: 1212px;
+                    background: #F7FAFF;
+
+                    font-family: "Noto Sans SC";
+                    font-style: normal;
+                    font-weight: bolder;
+                    font-size: 12px;
+                    text-align: center;
+                    color: #333333;
+                    margin-bottom: 2px;
+                    
+                }
+                dd{
+                    padding: 18px;
+                    width: 154px;
+                    height: 77px;
+                    background: #EAF1FF;
+                    font-family: "Noto Sans SC";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #888;
+
+                }
+            }
+            
+        }
+        .eq_cousetable_list02{
+            overflow: auto;
+            dl{
+                float: left;
+                margin-right: 7px;
+                margin-bottom: 5px;
+                
+                &:nth-child(7n+0) {
+                    margin-right: 0;
+                }
+                
+                dd{
+                    width: 157px;
+                    height: 80px;
+                    background: #EAF1FF;
+                    font-family: "Noto Sans SC";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 80px;
+                    text-align: center;
+                    color: #333333;
+                    background: #F7FAFF;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+        .eq_cousetable_list03{
+            overflow: auto;
+            .table_list01{
+                //width: 356px;
+                //height: 236px;
+                width: 360px;
+                float: left;
+                margin-right: 35px;
+                margin-bottom: 30px;
+                border-radius: 5px;
+
+                &:nth-child(3n) {
+                    margin-right: 0px;
+                }
+                .tr_wrap{
+                    overflow: auto;
+                    display: flex;
+                    
+                    .tr_wrap_content{
+                        margin-bottom: 3px;
+                        overflow: auto;
+                        //border: 1px solid #999999;
+                        display: flex;
+                        align-items: stretch;   //默认值。元素被拉伸以适应容器
+                        
+                        .tr_column01{
+                            float: left;
+                            width: 88px;
+                            //height: 78px;
+                            height: inherit;
+                            position: relative;
+                            font-family: "Noto Sans SC";
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            //line-height: 78px;
+                            text-align: center;
+                            color:#333333;
+                            .tr_transform{
+                                position:absolute;
+                                top:50%;
+                                transform: translate(-50%, -50%);
+                            }
+                            
+                        }
+                        
+                        .tr_item01{
+                            float: left;
+                            width: 177px;
+                            margin-left:2px;
+                            overflow: auto;
+                            .tr_column02{
+                                float: left;
+                                width: 177px;
+                                height: 24px;
+                                margin-bottom:5px;
+            
+                                font-family: "Noto Sans SC";
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #888888;
+                                
+                                &:last-child{
+                                    margin-bottom:0px;
+                                }
+                                
+                            }
+                        }
+                        
+                        .tr_item02{
+                            float: left;
+                            width: 88px;
+                            margin-left:2px;
+                            overflow: auto;
+                            .tr_column03{
+                                float: left;
+                                width: 86px;
+                                height: 24px;
+                                margin-bottom:5px;
+                                font-family: "Noto Sans SC";
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #888888;
+                                &:last-child{
+                                    margin-bottom:0px;
+                                }
+                            }
+
+                        }
+                        
+                    }
+                    
+                }
+                
+                // dl{
+                //     float: left;
+                //     margin-right: 10px;
+                //     margin-bottom: 5px;
+                    
+                //     dl::nth-child(7n+0) {
+                //         margin-right: 0;
+                //     }
+                    
+                //     dd{
+                //         width: 158px;
+                //         height: 80px;
+                //         background: #EAF1FF;
+                //         font-family: "Noto Sans SC";
+                //         font-style: normal;
+                //         font-weight: normal;
+                //         font-size: 14px;
+                //         line-height: 80px;
+                //         text-align: center;
+                //         color: #333333;
+                //         background: #F7FAFF;
+                //         border-radius: 5px;
+                //     }
+                // }
+            }
+            
+            
+        }
+    }
+    
+    .jianshi_list_wrap{
+        width:100%;
+        //padding-top:50px;
+        //padding-bottom:50px;
+        .jianshi_list_content{
+            height:400px;
+            overflow: auto;
+        }
+        .exam_list{
+            
+                //padding:70px;
+                overflow: auto;
+                .exam_list_item{
+                     
+                    float: left;
+                    width:260px;
+                    
+                    margin-left:200px;
+                    margin-right:200px;
+                    &:nth-child(2n) {
+                        margin-right: 0;
+                    }
+                    //margin-bottom: 50px;
+                    img{
+                        width: 100%;
+                        height: 150px;
+                    }
+                    div{
+                        
+                        .text_gray01{
+                            color: #888888;
+                        }
+                        .text_gray02{
+                            color: #333333;
+                        }
+                        
+                        display: block;
+                        //margin-top:25px;
+                        width: 100%;
+                        text-align: center;
+    
+                        font-family: "Noto Sans SC";
+                        font-style: normal;
+                        font-weight: bolder;
+                        font-size: 18px;
+                        line-height: 26px;
+    
+    
+                    }
+                }
+            
+            
+        }
+    }
+
+
+    //轮播图样式 start
+    .pagination_swiper_bottom {
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background: #fff;
+        transform: translateY(140px);
+        height: 200px;
+        border-radius: 20px;
+  
+        .swiper-container {
+          height: 100%;
+          width: 100%;
+  
+          .swiper-wrapper {
+            height: 100%;
+            width: 100%;
+  
+            .swiper-slide {
+              height: 100%;
+              align-items: center;
+              padding: 0 100px;
+              display: flex;
+              justify-content: space-around;
+  
+              .left {
+                flex: 1;
+  
+                >img {
+                  display: block;
+                  width: 130px;
+                  height: 130px;
+                  border-radius: 50%;
+                  margin-left: 70px;
+                }
+              }
+  
+              .right {
+                flex: 2.8;
+  
+                .name {
+                  font-size: 20px;
+                  font-weight: 700;
+                  color: #000;
+                  line-height: 44px;
+                }
+  
+                .desc {
+                  font-size: 14px;
+                  color: #000;
+                  opacity: 0.5;
+                }
+              }
+            }
+          }
+  
+          .swiper-button-next,
+          .swiper-button-prev {
+            background: #ccc;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+          }
+  
+          .swiper-button-next {
+            margin-right: 40px;
+          }
+  
+          .swiper-button-prev {
+            margin-left: 40px;
+  
+          }
+        }
+  
+        .swiper-pagination111 {
+          width: 100%;
+          position: absolute;
+          margin: 0 auto;
+          text-align: center;
+          top: -100px;
+  
+          .swiper-pagination-bullet {
+            width: 70px;
+            height: 70px;
+            display: inline-block;
+            margin: 0 10px;
+            background: #fff;
+  
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+  
+      .pagnation_swiper_top::before {
+        content: '';
+        width: 53px;
+        height: 4px;
+        background: #DE2C2C;
+        position: absolute;
+        bottom: -58px;
+        border-radius: 4px;
+        left: 43%;
+      }
+      .swiper-container {
+        --swiper-theme-color: #ff6600;
+        --swiper-pagination-color: #00ff33;
+        /* 两种都可以 */
+      }
+      
+      .swiper-container {
+        --swiper-theme-color: #ff6600;
+        /* 设置Swiper风格 */
+        --swiper-navigation-color: #00ff33;
+        /* 单独设置按钮颜色 */
+        --swiper-navigation-size: 30px;
+        /* 设置按钮大小 */
+      }
+    //end
+
+    //弹层
+    .Modal-butApplyuse {
+        width: 870px !important;
+        top: 30%;
+        .ant-modal-content {
+          width: 870px;
+        }
+      }
+}
+    
+    

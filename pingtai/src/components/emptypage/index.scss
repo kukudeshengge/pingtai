@@ -1,0 +1,75 @@
+.emptypagebox {
+  width: 100%;
+  overflow: hidden;
+  //min-height: 500px;
+  background: #f6f7fb;
+  text-align: center;
+  min-height: calc(100vh - 340px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .emptypage {
+    width: 780px;
+    height: 406px;
+    margin: 50px auto ;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(94, 113, 188, 0.02);
+    border-radius: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 90px;
+    box-sizing: border-box;
+
+    .emptyimg {
+      width: 214px;
+      margin-right: 108px;
+    }
+
+    .empty-right {
+      flex: 1;
+      text-align: left;
+
+      .empty-name {
+        height: 45px;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size:28px;
+        line-height: 45px;
+        color: #6B7DAC;
+        margin-bottom: 0;
+      }
+
+      .empty-info {
+        height: 25px;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #E0E4F4;
+        margin-bottom: 0;
+      }
+
+      .empty-link {
+        width: 114px;
+        height: 34px;
+        line-height: 34px;
+        background: #3A89FD;
+        border: none;
+        box-shadow: 0px 4px 10px rgba(64, 91, 185, 0.15);
+        border-radius: 4px !important;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 70px;
+      }
+    }
+  }
+}

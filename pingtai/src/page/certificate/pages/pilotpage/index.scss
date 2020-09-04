@@ -1,0 +1,224 @@
+
+
+.pilotpage{
+  /*检索条件start*/
+  background: #f6f7fb;
+  overflow: hidden;
+  padding-bottom: 75px;
+  .vocational-top{
+    width:100%;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 12.5743px 12.5743px rgba(0, 0, 0, 0.03);
+    padding-top:20px;
+    .col-title{
+      padding-bottom:13px;
+      display: block;
+      border-bottom:1px solid rgba(0,0,0,0.05);
+      h2{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0D1731;
+        display: inline-block;
+        margin:0;
+      }
+      span{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        text-decoration-line: underline;
+        margin-left:18px;
+        display: inline-block;
+        a{
+          color:rgba(1,23,49,0.5);
+        }
+      }
+    }
+    .vocational-select{
+      display: block;
+      padding:16px 0 0;
+      width: 100%;
+      .ant-card{
+        padding:0;
+        border:none;
+        display: block;
+        .ant-card-body{
+          padding:0;
+          .paper-year{
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 30px;
+            color: #2A283D;
+            width:5%;
+          }
+          .paper-year-right{
+            width:94%;
+            .ant-radio-button-wrapper{
+              min-width: 60px;
+              padding: 5px 10px;
+              text-align: center;
+              margin: 0 10px 10px 0;
+              line-height: 20px;
+              height: 30px;
+              border: none;
+              border-color: initial;
+              box-shadow: none;
+              span{
+                font-size: 14px;
+                line-height: 20px;
+                color: #808695;
+              }
+            }
+            .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+              background: rgba(222, 43, 43, 0.1);
+              border-radius: 3px;
+              box-shadow: none;
+              span{
+                font-size: 14px;
+                line-height: 20px;
+                color: #DE2B2B;
+              }
+            }
+            .ant-radio-button-wrapper:not(:first-child)::before{
+              border:none;
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .vocational-search{
+      width:100%;
+      display: block;
+      padding:13px 0 16px;
+      border-top:1px solid rgba(0,0,0,0.05);
+      line-height:38px;
+      .span-left{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #0D1731;
+        opacity: 0.5;
+        display: inline-block;
+      }
+      .span-right{
+        float: right;
+        margin-left:10px;
+        .ant-input{
+          background: #F4F4F4;
+          border-radius: 5px;
+          border-color:#F4F4F4;
+          height:38px;
+          font-size: 14px;
+          line-height: 20px;
+          min-width:427px;
+          &:focus{
+            border-color:#F4F4F4;
+          }
+        }
+        .ant-input-suffix{
+          .anticon{
+            color: #C9C9C9;
+            opacity: 1;
+            font-size:18px;
+          }
+        }
+      }
+    }
+  }
+  /*检索条件end*/
+  .pilotpage-box{
+    padding-top: 23px;
+  }
+  .lilotpage-list{
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1.25743px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 40px 50px 20px;
+    margin-bottom: 15px;
+    .lilotpage-top{
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      margin-bottom: 18px;
+      .lilotpage-name{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #333333;
+        margin-bottom: 28px;
+        position: relative;
+        height: 28px;
+        &:before{
+          content: '';
+          position: absolute;
+          width: 60px;
+          height: 4px;
+          left: 0;
+          top: 40px;
+          background: #DE2B2B;
+        }
+      }
+      .lilotpage-addr{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #888888;
+        margin-bottom: 15px;
+      }
+    }
+    .lilotpage-cont{
+      display: flex;
+      margin-bottom: 35px;
+      .lable-name{
+        width: 75px;
+        height: 22px;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #333333;
+        margin-right: 17px;
+        line-height: 22px;
+      }
+      .cont-right{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #888888;
+        flex: 1;
+        line-height: 22px;
+        .zs-namelist{
+          background: url("../../../../assets/img/certificate/icon-lilotpage.png") no-repeat center left ,19px/20px;
+          padding-left: 25px;
+          margin-right: 18px;
+          height: 22px;
+          margin-bottom: 15px;
+          display: inline-block;
+        }
+      }
+    }
+    .lilotpage-contpage{
+      .cont-right-clamp{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:3;
+        overflow: hidden;
+      }
+    }
+    .lilotpage-link{
+      float: right;
+      height: 22px;
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #CA4A21;
+
+    }
+  }
+}

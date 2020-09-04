@@ -1,0 +1,228 @@
+.wisdom-wrap{
+  p,h3{
+    margin-bottom: 0;
+  }
+  .wisdom-content{
+    .img-box{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img{
+        background-size: contain;
+        width: 100%;
+        height: auto;
+      }
+
+    }
+    .wisdom-why-tit{
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 43px;
+      text-align: center;
+      color: #0D1731;
+      position: relative;
+      margin-bottom: 17px;
+      padding-bottom: 17px;
+      &:after{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 70px;
+        height: 4px;
+        background: #1B6B60;
+        margin-left: -35px;
+      }
+    }
+    .wisdom-why{
+      padding: 50px 0;
+      background: rgba(207,225,223,.3);
+
+      .wisdom-desc{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #2A5C54;
+      }
+      .desc-img-box{
+        margin-top: 58px;
+        text-align: center;
+        img{
+          background-size: contain;
+        }
+      }
+
+    }
+    .wisdom-space{
+      padding-top: 78px;
+      background: #f6f7fb;
+      .wisdom-space-desc{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+        padding-bottom: 40px;
+      }
+      .wisdom-space-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .wisdom-space-item{
+          text-align: center;
+          margin:0 auto 46px;
+          &:hover{
+            .space-cont{
+              top: 0;
+              margin-top: -180px;
+              transition: all .8s ease;
+              -webkit-transition: all .8s ease;
+            }
+            .shade-box{
+              bottom: 0px;
+            }
+          }
+          display: block;
+          height: 367px;
+          overflow: hidden;
+          position: relative;
+          width: 367px;
+          cursor: pointer;
+          border-radius: 10px;
+          .wisdom-space-bg{
+            width: 367px;
+            height: 367px;
+            border-radius: 10px;
+            display: block;
+          }
+          .space-img-bg{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 367px;
+            height: 367px;
+            border-radius: 10px;
+            z-index: 2;
+            background-color: rgba(0,0,0,.7);
+          }
+          .space-cont{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -85px;
+            z-index: 3;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            .space-icon{
+              width:auto;
+              height:90px;
+            }
+            .space-tit{
+              font-family: Noto Sans SC;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 30px;
+              line-height: 43px;
+              align-items: center;
+              text-align: center;
+              color: #FFFFFF;
+              margin: 10px 0 5px 0;
+            }
+            .space-desc{
+              font-family: Noto Sans SC;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 17px;
+              align-items: center;
+              text-align: center;
+              text-transform: uppercase;
+              color: rgba(255,255,255,.3);
+            }
+          }
+          .shade-box{
+            transition: all .9s ease;
+            -webkit-transition: all .9s ease;
+            position: absolute;
+            left: 0;
+            bottom: -367px;
+            background-color: rgba(27,107,96,0.8);
+            border-radius: 10px;
+            width: 367px;
+            height: 367px;
+            z-index: 3;
+            .shade-cont{
+              width: 100%;
+              height: auto;
+              max-height: 367px;
+              overflow: hidden;
+              position: absolute;
+              top: 40%;
+              left: 50%;
+              -webkit-transform: translate(-50%,-50%);
+              -moz-transform: translate(-50%,-50%);
+              -ms-transform: translate(-50%,-50%);
+              -o-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+              .shade-tit{
+                font-family: Noto Sans SC;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 43px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+                margin: 26px 0 5px 0;
+              }
+              .shade-desc{
+                font-family: Noto Sans SC;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 17px;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+                color: rgba(255,255,255,.3);
+                position: relative;
+                padding-bottom: 22px;
+                margin-bottom: 31px;
+                &:after{
+                  content: '';
+                  position: absolute;
+                  left: 50%;
+                  bottom: 0;
+                  width: 50px;
+                  height: 1px;
+                  background: rgba(255,255,255,.5);
+                  margin-left: -25px;
+                }
+              }
+              .shade-text{
+                font-family: Noto Sans SC;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 0 60px 0 60px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

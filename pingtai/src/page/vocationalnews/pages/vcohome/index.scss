@@ -1,0 +1,439 @@
+.vocational-wrap{
+  background: #f6f7fb;
+  .vcohome_box{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    padding: 20px 10px 30px 0px;
+    margin: 0 auto;
+  }
+  .footer-more{
+    width: 156px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D9DBE2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D1731;
+    opacity: 0.7;
+    margin: 43px auto ;
+    cursor: pointer;
+  }
+
+
+  .vocational-content{
+    .vocational-item{
+      //margin: 30px 0;
+      //padding-bottom: 30px;
+      //border-bottom: 1px dashed #eee;
+      .list-img{
+        width: 193px;
+        height: 122px;
+        background: url("../../../../assets/img/default-img.png");
+        background-size: 100% 100%;
+        img{
+          width: 193px;
+          height: 122px;
+        }
+      }
+      .vocational-container-ml60{
+        margin-left: 56px;
+        .vocational-tit{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          color: #333333;
+          margin-bottom: 16px;
+          cursor: pointer;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .vocational-desc{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          color: #888888;
+          margin-bottom: 20px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          cursor: pointer;
+        }
+        .vocational-source{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 20px;
+          /* identical to box height */
+          color: rgba(13, 23, 49, 0.2);
+          margin-bottom: 0;
+          .type-industry{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: rgba(13, 23, 49, 0.2);
+            margin-left: 42px;
+          }
+        }
+      }
+      .vocational-right{
+        text-align: right;
+        .vocational-year{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          align-items: center;
+          color: #0D1731;
+          opacity: 0.2;
+          margin-bottom: 0;
+        }
+        .vocational-date{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 35px;
+          line-height: 51px;
+          align-items: center;
+          color: #0D1731;
+          opacity: 0.2;
+          margin-bottom: 15px;
+        }
+        .vocational-look-detail{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          /* identical to box height */
+          color: #DE2B2B;
+          margin-bottom: 0;
+          cursor: pointer;
+          position: relative;
+          padding-right:18px;
+          &:after{
+            width:8px;
+            height:13px;
+            background: url(../../../../assets/img/vocational_news/jt.png)no-repeat center;
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 50%;
+            transform: translateY(-45%);
+          }
+        }
+      }
+    }
+  }
+  /*详情样式 start*/
+    .detail-content{
+      .detail-box{
+        padding: 0 40px 150px 40px;
+        .detail-tit{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 29px;
+          color: #333333;
+          margin-bottom: 23px;
+        }
+        .detail-resource{
+          display: flex;
+          align-items: center;
+          margin-bottom:40px ;
+          justify-content: space-between;
+          p ,span{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #888888;
+            margin: 0 22px 0 0;
+          }
+          .author{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            color: #333333;
+          }
+        }
+        .detail-container{
+          .w100{
+            padding-bottom: 20px;
+            .detail-img{
+              width:100%;
+              height: 230px;
+             margin: 30px 0;
+            }
+            .detail-desc{
+              font-family: PingFang SC;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 30px;
+              color: #333333;
+              text-align: left;
+              img{
+                margin: 25px 0;
+              }
+            }
+          }
+
+        }
+
+      }
+      .detail-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #eee;
+        padding: 26px 0px ;
+        position: absolute;
+        bottom: 0;
+        width: 92%;
+        left: 4%;
+        box-sizing: border-box;
+        .detail-footer-common{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 17px;
+
+          &.up{
+            color: #888888;
+            position: relative;
+            display: inline-block;
+            margin-left: 24px;
+            &:before{
+              position: absolute;
+              content: "";
+              background: url("../../../../assets/img/vocational_news/detail_up.png")  no-repeat;
+              width: 13px;
+              height: 11px;
+              top: 3px;
+              left: -22px;
+              background-size: 13px 11px;
+            }
+          }
+          &.down{
+            color: #333333;
+            position: relative;
+            margin-right: 24px;
+            &:after{
+              position: absolute;
+              content: "";
+              background: url("../../../../assets/img/vocational_news/detail_down.png")  no-repeat;
+              width: 13px;
+              height: 11px;
+              top: 3px;
+              right: -22px;
+              background-size: 13px 11px;
+            }
+          }
+        }
+      }
+    }
+
+  /*详情样式 end*/
+  /*左侧导航 start*/
+  .list-tab-ul{
+    margin-top: 37px;
+    li {
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 42px;
+      cursor: pointer;
+      line-height: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      span {
+        display: inline-block;
+      }
+      i{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #333333;
+        padding-left:10px;
+        position: relative;
+        display: inline-block;
+        line-height: 26px;
+        height:26px;
+        width:20px;
+        opacity: 0;
+        &:after{
+          width:8px;
+          height:13px;
+          background: url(../../../../assets/img/vocational_news/jt.png)no-repeat center;
+          position: absolute;
+          content: "";
+          right: -8px;
+          top: 50%;
+          transform:translateY(-43%);
+          color: #DE2B2B;
+        }
+      }
+    }
+    .li-active{
+      color: #DE2B2B;
+      i{
+        opacity: 1;
+      }
+    }
+    .li-on:first-child{
+      color: #DE2B2B;
+        i {
+          opacity: 1;
+        }
+    }
+  }
+  /*左侧导航 end*/
+  .list-right-wrap{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 0 0;
+    .list-right-box{
+      background: #fff;
+      padding: 35px 20px 0px 20px;
+      box-sizing: border-box;
+      border-radius: 10px 10px 0 0;
+      margin-top: -80px;
+      min-height:500px ;
+      position: relative;
+    }
+    .right-item-br{
+      margin-bottom: 29px;
+      border-bottom: 1px solid #eee;
+      padding: 0 20px 29px 20px;
+    }
+  }
+/*分类 start*/
+  .classify-mb{
+    margin-bottom: 0;
+  }
+  .classify-wrap{
+    margin: 15px 0 40px 0;
+    .classify-content{
+      .classify-top{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        .classify-tit{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          color: #333333;
+          width: 96px;
+          display: block;
+          border-bottom:  solid #eee;
+          padding-bottom: 10px;
+        }
+        .icon-img{
+          width: 18px;
+          height: auto;
+          margin-left: 10px;
+          padding-bottom: 10px;
+        }
+      }
+      .classify-location{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #888888;
+        margin-bottom: 20px;
+      }
+      .resource_classify {
+        display: flex;
+        padding: 0 20px;
+        // align-items: center;
+        //margin-top: 46px;
+
+        >dt::after {
+          content: "";
+          display: inline-block;
+          height: 14px;
+          width: 1px;
+          background: #888;
+          vertical-align: -2px;
+          margin: 0 30px 0 20px;
+        }
+
+        >dt {
+          margin-top: 4px;
+        }
+
+        >dd {
+          flex: 1;
+          margin: 0;
+        }
+
+        //清除ant-radio默认样式
+        .ant-radio-button-wrapper {
+          height: 30px;
+          line-height: 30px;
+          border-radius: 3px;
+          color:#808695;
+          border: none;
+          transition: none;
+          text-align: center;
+          transition: all 0.1s;
+          margin: 0 5px 12px;
+          outline: none;
+        }
+
+        .ant-radio-button-wrapper::before {
+          content: none;
+        }
+
+        .ant-radio-button-wrapper-checked {
+          color: #DE2B2B;
+          border-bottom: 1px solid #DE2B2B;
+          border-radius: 0;
+        }
+
+        .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+          -webkit-box-shadow: none
+        }
+
+        .ant-radio-button-wrapper:hover {
+          color: #DE2B2B;
+        }
+
+        //清除ant-radio默认样式end
+
+      }
+    }
+  }
+  /*分类 end*/
+}
+

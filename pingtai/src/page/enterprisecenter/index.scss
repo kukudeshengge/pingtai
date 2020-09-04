@@ -1,0 +1,182 @@
+.enterprisecenter{
+  background: #f6f7fb;
+  overflow: hidden;
+  /*分类start*/
+  .nav-tab {
+    margin: 30px 0;
+    .ant-radio-button-wrapper{
+      width: 187px;
+      height: 57px;
+      background: rgba(41,90,218,0.06);
+      border-radius: 5px;
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: 500;
+      padding: 9px 25px;
+      box-sizing: border-box;
+      margin: 0px 25px;
+      border: none;
+      &:last-child{
+        margin-right: 0;
+      }
+      &.ant-radio-button-wrapper-checked{
+        background: #295ADA;
+        .tab-tit{
+          color: #fff;
+        }
+        .tab-english{
+          color: #FFFFFF;
+          opacity: 0.2;
+        }
+      }
+      .tab-tit{
+        font-size: 16px;
+        color: #295ADA;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        height: 25px;
+        line-height: 25px;
+        font-weight: 500;
+      }
+      .tab-english{
+        height: 16px;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        color: #295ADA;
+        opacity: 0.2;
+      }
+    }
+    .ant-radio-button-wrapper:not(:first-child)::before{
+      width: 0;
+    }
+  }
+  /*分类end*/
+  .center-container {
+    padding: 0px 0 69px;
+    .center-search-box {
+      margin-bottom: 38px;
+padding: 0 20px;
+      .center-top {
+        display: flex;
+        align-items: center;
+
+        .center-tit {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          color: #333333;
+        }
+
+        .icon-img {
+          width: 19px;
+          height: auto;
+          margin-left: 10px;
+        }
+      }
+
+    }
+
+    .list-box {
+      margin-bottom: 46px;
+      .ant-col{
+        margin-bottom: 27px;
+      }
+      .list-item {
+        background: #FFFFFF;
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 26px 42px;
+        overflow: hidden;
+        //margin-bottom: 27px;
+        height: 100%;
+        .see-detail {
+          min-width: 96px;
+          padding: 0 20px;
+          height: 30px;
+          line-height: 28px;
+          border-radius: 5px !important;
+          background: #295ADA;
+          border: none;
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: #FFFFFF;
+          text-align: center;
+          display: inline-block;
+          float: right;
+          margin-top: 30px;
+          cursor: pointer;
+          &:disabled{
+            background: #ADB9D8;
+          }
+        }
+
+        .center-list {
+          display: flex;
+
+          .list-left {
+            flex: 1;
+            width: calc(100% - 117px);
+            .list-tit {
+              font-family: Noto Sans SC;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              color: #333333;
+              margin-bottom: 8px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+
+            .list-resource {
+              font-family: Noto Sans SC;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              color: #888888;
+              margin-bottom: 16px;
+              padding-bottom: 16px;
+              border-bottom: 1px solid rgba(0, 0, 0, .2);
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+
+            .list-desc {
+              font-family: Noto Sans SC;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 12px;
+              color: #333333;
+              margin-bottom: 0;
+              line-height: 22px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 3;
+              overflow: hidden;
+              height: 66px;
+            }
+          }
+
+          .list-right {
+            .center-list-img {
+              width: 117px;
+              height: auto;
+            }
+            .center-list-imga{
+              width:114px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

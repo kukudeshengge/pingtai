@@ -1,0 +1,270 @@
+.vr_box {
+  width: 100%;
+  p {
+    margin-bottom: 0;
+  }
+  .top_wai {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    .top {
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+      .filter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        border-bottom: 1px solid #f2f2f2;
+        .left {
+          display: flex;
+          align-items: center;
+          >p{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+          }
+          > span {
+            color: #333333;
+          }
+          > i {
+            color: #888888;
+            margin-left: 20px;
+            cursor: pointer;
+          }
+        }
+        .right {
+          color: #de2b2b;
+          cursor: pointer;
+        }
+      }
+      .classify {
+        width: 100%;
+        padding-top: 30px;
+        min-height: 150px;
+        border-bottom: 1px solid #f2f2f2;
+        .type {
+          width: 100%;
+          display: flex;
+          margin-bottom: 25px;
+          .active {
+            padding: 6px 5px !important;
+            background: rgba(35, 154, 221, 0.1);
+            border-radius: 3px;
+            color: #239ADD;
+          }
+        }
+        .hot {
+          width: 100%;
+          display: flex;
+          min-height: 95px;
+        }
+        .left {
+          min-width: 85px;
+          padding-top: 6px;
+          span {
+            color: #333333;
+            font-size: 14px;
+            font-weight: bold;
+            width: 56px;
+            display: inline-block;
+            text-align: right;
+          }
+          i {
+            display: inline-block;
+            color: #888888;
+            margin-left: 20px;
+          }
+        }
+        .right {
+          margin-left: 30px;
+          .right_list {
+            .item {
+              padding: 6px 5px;
+              box-shadow: none;
+              margin-right: 45px;
+              margin-bottom: 25px;
+              transition: none;
+              font-size: 14px;
+              color: #333333;
+              display: flex;
+              display: inline-block;
+              align-items: center;
+              cursor: pointer;
+              &:active{
+                background: none;
+              }
+              &:hover {
+                color: #239ADD;
+              }
+            }
+            .active {
+              background: rgba(35, 154, 221, 0.1);
+              border-radius: 3px;
+              color: #239ADD;
+            }
+          }
+        }
+      }
+      .search_box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        .left {
+          span {
+            color: #888888;
+            font-size: 14px;
+          }
+        }
+        .right {
+          .ant-input-search {
+            width: 428px;
+            height: 38px;
+            border-radius: 5px;
+            .ant-input {
+              background: #f4f4f4;
+              outline: none;
+              &::placeholder {
+                /* Mozilla Firefox 19+ */
+                color: #888888;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottom_wai {
+    width: 100%;
+    background: #f6f7fb;
+    padding-top: 30px;
+    .bottom {
+      width: 1200px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 0px 28px;
+      overflow: hidden;
+      min-height: calc(100vh - 734px);
+      .item {
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        padding-top: 30px;
+        .top {
+          width: 100%;
+          display: flex;
+          margin-bottom: 30px;
+          .left {
+            width: 130px;
+            height: 90px;
+            margin-right: 25px;
+            background: url("../../../../assets/img/resource_center/img_defult.png") no-repeat;
+            background-size: 100% 100%;
+            position: relative;
+            border-radius: 3px;
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 3px;
+            }
+          }
+          .right {
+            width: calc(100% - 130px);
+            h2 {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              span {
+                &:nth-child(1) {
+                  font-size: 18px;
+                  font-weight: bold;
+                  color: #333333;
+                  margin-bottom: 15px;
+                }
+                &:nth-child(2) {
+                  color: #888888;
+                }
+              }
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+              color: #333333;
+              display: -webkit-box;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+            }
+          }
+        }
+        .ant-divider-horizontal {
+          margin: 0;
+        }
+        .tag {
+          position: absolute;
+          height: 16px;
+          background: #ef692e;
+          border-radius: 2px;
+          color: #fff;
+          font-size: 12px;
+          text-align: center;
+          line-height: 16px;
+          top: 6px;
+          left: 6px;
+        }
+        &:last-child{
+          .ant-divider{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+.page_boxfy{
+  display: flex!important;
+  justify-content: flex-end;
+  background-color: #fff;
+  padding: 20px 10px 30px 0px;
+  margin: 0 auto;
+  .ant-select-selection{
+    background: none;
+  }
+  li{
+    border: none;
+    background: none;
+    text-align: left;
+  }
+  .ant-pagination-prev,.ant-pagination-next{
+    a{
+      border: none;
+      background: none;
+    }
+  }
+}
+.page_box{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  padding: 20px 10px 30px 0px;
+  width: 1200px;
+  margin: 0 auto;
+  .ant-select-selection{
+    background: none;
+  }
+  li{
+    border: none;
+    background: none;
+  }
+  .ant-pagination-prev,.ant-pagination-next{
+    a{
+      border: none;
+      background: none;
+    }
+  }
+}

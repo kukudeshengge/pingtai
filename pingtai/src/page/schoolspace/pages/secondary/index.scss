@@ -1,0 +1,186 @@
+.Common-secondary{
+  width:100%;
+  display: block;
+  background: #f6f7fb;
+  .vocational-top{
+    width:100%;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 12.5743px 12.5743px rgba(0, 0, 0, 0.03);
+    padding-top:20px;
+    .col-title{
+      padding-bottom:13px;
+      display: block;
+      border-bottom:1px solid rgba(0,0,0,0.05);
+      h2{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0D1731;
+        display: inline-block;
+        margin:0;
+        i{
+          list-style: none;
+          color: #1B6B60;
+        }
+      }
+      span{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        text-decoration-line: underline;
+        margin-left:18px;
+        display: inline-block;
+        a{
+          color:rgba(1,23,49,0.5);
+        }
+      }
+    }
+    .vocational-select{
+      display: block;
+      padding:16px 0 0;
+      width: 100%;
+      .ant-card{
+        padding:0;
+        border:none;
+        display: block;
+        .ant-card-body{
+          padding:0;
+          .paper-year{
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 30px;
+            color: #2A283D;
+            width:5%;
+          }
+          .paper-year-right{
+            width:94%;
+            .ant-radio-button-wrapper{
+              min-width:60px;
+              padding:5px 10px;
+              text-align: center;
+              margin:0 8px 10px 0;
+              line-height: 20px;
+              height:30px;
+              border:none;
+              border-color:initial;
+              -webkit-box-shadow:none;
+              box-shadow:none;
+              span{
+                font-size: 14px;
+                line-height: 20px;
+                color: #808695;
+              }
+            }
+            .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+              background: rgba(27, 107, 96, 0.2);
+              border-radius: 3px;
+              box-shadow: none;
+              span{
+                font-size: 14px;
+                line-height: 20px;
+                color: #1B6B60;
+              }
+            }
+            .ant-radio-button-wrapper:not(:first-child)::before{
+              border:none;
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .vocational-search{
+      width:100%;
+      display: block;
+      padding:13px 0 16px;
+      border-top:1px solid rgba(0,0,0,0.05);
+      line-height:38px;
+      .span-left{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #0D1731;
+        opacity: 0.5;
+        display: inline-block;
+      }
+      .span-right{
+        float: right;
+        .ant-input{
+          background: #F4F4F4;
+          border-radius: 5px;
+          border-color:#F4F4F4;
+          height:38px;
+          font-size: 14px;
+          line-height: 20px;
+          min-width:427px;
+          &:focus{
+            border-color:#F4F4F4;
+          }
+        }
+        .ant-input-suffix{
+          .anticon{
+            color: #C9C9C9;
+            opacity: 1;
+            font-size:18px;
+          }
+        }
+      }
+    }
+  }
+  .secondary-bottom{
+    width: 100%;
+    background: #f6f7fb;
+    display: flex;
+    padding-top:38px;
+    padding-bottom:76px;
+    .secondary-list{
+      width: 100%;
+      .Common-fy{
+        padding-top:24px;
+        padding-bottom:0;
+      }
+      .ant-card-bordered{
+        background: #FFFFFF;
+        border: 1.25743px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        .ant-card-body{
+          padding:30px 30px 0;
+          th{
+            border:none;
+            text-align: center;
+            background: #f3f7f7!important;
+              width:17%;
+              &:first-child{
+                width:10%;
+              }
+              &:nth-child(2){
+                width:22%;
+              }
+          }
+          td,th{
+            border:none;
+            text-align: center;
+          }
+          tr:nth-child(2n){
+            background: #f3f7f7!important;
+          }
+          .ant-table-thead{
+            tr{
+              background: #f3f7f7!important;
+              &:hover{
+                background: #f3f7f7!important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .Common-fy{
+    width: 100%;
+    display: block;
+    padding:20px 0 40px;
+  }
+}

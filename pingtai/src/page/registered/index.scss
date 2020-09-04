@@ -1,0 +1,167 @@
+.registered-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background: #f6f7fb;
+    position: relative;
+    padding-top: 84px;
+    .width-main{
+        width:1200px;
+        margin:0 auto;
+    }
+    .login-top{
+        width:100%;
+        position: fixed;
+        left:0;
+        top:0;
+        background: #FFFFFF;
+        line-height: 84px;
+        z-index:2;
+        align-items: center;
+        height:84px;
+        .logo{
+            width: 243px;
+            display: inline-block;
+            height:auto;
+            float:left;
+            vertical-align: middle;
+            img{
+                width:100%;
+                height:100%;
+                vertical-align: middle;
+            }
+        }
+        .text-right{
+            float:right;
+            display: flex;
+            text-align:right;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            align-items: center;
+            color: #000000;
+            cursor: pointer;
+            .icon-img{
+                font-size: 25px;
+                margin-right: 10px;
+                color: #0D1731;
+                display: inline-block;
+            }
+            img{
+                width:25px;
+                margin-right:10px;
+            }
+        }
+        .text-right:hover{
+            color:#034EA2;
+            .icon-img{
+                color:#034EA2;
+            }
+        }
+    }
+    .registered-bottom{
+        background: url(../../assets/img/login-bei.png) no-repeat top right #f6f7fb;
+        width: 100%;
+        display: block;
+    }
+    .bottom-box{
+        display: block;
+        align-items: center;
+        justify-content: right;
+        width: 100%;
+        position: relative;
+        height: calc(100% - 63px);
+        padding: 0 7%;
+        .box-pic{
+            display: flex;
+            width: 100%;
+            position: relative;
+            padding: 5% 5% 10%;
+            background: #FFFFFF;
+            box-shadow: 4px 6px 39px rgba(101, 138, 193, 0.2);
+            border-radius: 10px;
+            margin-top:120px;
+            .img-left{
+                width:52%;
+                margin:0 46px 0 0;
+                float: left;
+                //position: relative;
+                left:46px;
+                margin-top:5%;
+                img{
+                    max-width:100%;
+                }
+            }
+            .main-login-wrap{
+                width:45%;
+                float:right;
+                h3{
+                    display: block;
+                    font-style: normal;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                    font-size:30px;
+                    line-height: 36px;
+                    display: block;
+                    color: #333333;
+                    width:100%;
+                    padding-bottom:20px;
+                    border-bottom: 1px solid #F3F3F3;
+                }
+                h4{
+                    padding:20px 0 0px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 30px;
+                    display: block;
+                    color: #333333;
+                    width:100%;
+                }
+                p{
+                    display: block;
+                    margin-top:15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #333333;
+                }
+                span{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 14px;
+                    display:block;
+                    margin-top:25px;
+                    color: #034EA2;
+                    a{
+                        color: #034EA2;
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        display: block;
+        text-align: center;
+        width:100%;
+        position: absolute;
+        bottom:48px;
+        align-items: center;
+        color: #0D1731;
+        opacity: 0.3;
+        a{
+            color: #0D1731;
+        }
+    }
+}
+
+

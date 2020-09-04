@@ -1,0 +1,59 @@
+.footer-wrap{
+  background: #1E212E;
+ padding:40px 0 ;
+  .footer-common-tit{
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+  .footer-common-mt20{
+      margin-top: 20px;
+    .footer-common-desc{
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 17px;
+      color: #FFFFFF;
+      opacity: 0.5;
+      cursor: pointer;
+      margin-bottom: 15px;
+      display: block;
+    }
+    .footer-code-img{
+      width: 96px;
+      height: 113px;
+    }
+  }
+.footer-common-information{
+  font-family: Noto Sans SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+  .footer-number{
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.2;
+    a{
+      color: #FFFFFF;
+      opacity: 1;
+    }
+  }
+  .footer-logo-img{
+    width: 208px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,75 @@
+.resource_main {
+  width: 100%;
+  height: 100%;
+  .resource_header{
+      width: 100%;
+      height: 56px;
+  }
+  .resource_footer{
+      width: 100%;
+      height: 280px;
+  }
+  .resource_container{
+      width: 100%;
+      min-height: calc(100vh - 309px);
+  }
+}
+
+//子组件公共样式
+
+.align_left{ text-align: left;}
+.align_right{ text-align: right;}
+.mtop5{margin-top: 5px;}
+.mtop10{margin-top: 10px;}
+.mtop15{margin-top: 15px;}
+.mtop35{margin-top: 35px;}
+.mleft5{margin-left: 5px;}
+.mleft10{margin-left: 10px;}
+.mright5{margin-right: 5px;}
+.mright10{margin-right: 10px;}
+.mbottom5{ margin-bottom: 5px;}
+.mbottom10{ margin-bottom: 10px;}
+.mbottom15{ margin-bottom: 15px;}
+.mbottom20{ margin-bottom: 20px;}
+.mbottom35{ margin-bottom: 35px;}
+.mbottom50{margin-bottom: 50px;}
+.pbottom15{ padding-bottom:15px;}
+.fleft{float: left;}
+.fright{float: right;}
+.pos_abs{ position: absolute;}
+.pos_rel{position: relative;}
+
+.top_head{
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 56px;
+
+    background: #392E8A;
+    .top_head_banner{
+      width: 1200px;
+      height: 80px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .top_head_text_title{
+
+      width: 96px;
+      font-family: "Noto Sans SC";
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 80px;
+      color: #FFFFFF;
+    }
+    .top_head_text_notice{
+      font-family: "Noto Sans SC";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 75px;
+      color: #FFFFFF;
+      opacity: 0.5;
+      margin-left:20px;
+    }
+
+  }

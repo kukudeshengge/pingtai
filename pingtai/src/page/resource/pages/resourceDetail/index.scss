@@ -1,0 +1,99 @@
+.resource_container_wai{
+    width: 100%;
+    background: #1e1d23;
+    padding-bottom: 80px;
+    .resource_box{
+        width: 1200px;
+        margin: 0 auto;
+        .crumbs-box{
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            a,span{
+                color: #FFFFFF;
+                font-size: 14px;
+            }
+        }
+        .resource_title{
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+        }
+        .look_box{
+            width: 100%;
+            padding-bottom: 20px;
+           .show{
+               width: 100%;
+               height: 546px;
+               background: #FFFFFF;
+               iframe{
+                   width: 100%;
+                   height: 100%;
+               }
+           }
+           .control{
+               height: 70px;
+               background-color: #000000;
+               padding: 0px 28px;
+               font-size: 14px;
+               color: #FFFFFF;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               .right,.left{
+                   color: #FFFFFF;
+               }
+               .left{
+                   display: flex;
+                   align-items: center;
+                   span{
+                    display: flex;
+                    align-items: center;
+                       margin-right: 12px;
+                       img{
+                           width: 21px;
+                           height: 21px;
+                       }
+                   }
+               }
+           }
+        }
+        .content{
+            width: 100%;
+            ul{
+                width: 100%;
+                padding: 40px;
+                background: #111111;
+                margin-bottom: 0;
+                font-size: 14px;
+                li{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    color: #FFFFFF;
+                    span:nth-child(1){
+                        width: 115px;
+                        margin-right: 15px;
+                        text-align: right;
+                        display: inline-block;
+                        opacity: 0.5;
+                    }
+                    span:nth-child(2){
+                        width: calc(100% - 100px);
+                        max-width: calc(100% - 100px);
+                        display: inline-block;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

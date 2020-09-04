@@ -1,0 +1,414 @@
+#root {
+    // min-width: 1200px;
+    // max-width: 1600px;
+    // margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.ant-layout-sider {
+    background: #fff;
+
+}
+
+.ant-btn-primary {
+    background-color: #3E78ED;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    color: #fff;
+    background-color: #3E78ED;
+    border-color: #3E78ED;
+}
+
+.ant-table-pagination {
+    li {
+        html body {
+            background-color: #f6f7fb;
+        }
+
+        .ant-table-pagination {
+            li {
+                border: none;
+            }
+
+            .ant-pagination-next,
+            .ant-pagination-prev {
+                a {
+                    border: none;
+                }
+            }
+        }
+    }
+}
+//宽度
+.Common-content{
+    margin:0 auto;
+    display: block;
+    width:1200px;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*企业喀吧农业banner start*/
+.certificate-banner{
+    position: relative;
+    height:390px;
+    .banner-cont{
+        color: #FFFFFF;
+        padding: 4.3% 0 ;
+        position: absolute;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        .enterprise-add{
+            background:rgba(255, 255, 255, 0.1) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+            filter:Alpha(opacity=80); background:#fff;
+            width: 174px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            display: inline-block;
+            margin-top: 29px;
+            border-radius: 20px;
+            cursor:pointer;
+        }
+        .banner-name{
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 71px;
+            color: #FFFFFF;
+            margin-bottom: 0;
+        }
+        .banner-doc{
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-bottom: 0;
+        }
+        .bannersmall-name{
+            opacity: 0.4;
+            font-size: 18px;
+            color: #FFFFFF;
+            line-height: 19px;
+            margin-bottom: 0;
+        }
+    }
+    .banner-img{
+        width: 100%;
+        height:100%;
+    }
+}
+/*企业喀吧农业banner end*/
+.Certificatepage-banner{
+    height: 80px;
+    background: #CA4A21;
+    box-shadow: 0px 5px 10px rgba(202, 74, 33, 0.37);
+    &.zsdetails-banner{
+        height: 110px;
+        .zsdetails-ment{
+            margin:8px 0 0;
+        }
+    }
+    .detail-banner-name{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-top: 23px;
+
+    }
+    .crumbs-menu{
+        color: #FFFFFF;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        opacity: 0.5;
+        margin-bottom: 0;
+        font-size: 14px;
+        margin-left: 18px;
+        a{
+            color: #FFFFFF;
+            opacity:1;
+        }
+    }
+}
+/*证书中心详情banner start*/
+.Certificatepage-banner{
+    height: 80px;
+    background: #CA4A21;
+    box-shadow: 0px 5px 10px rgba(202, 74, 33, 0.37);
+    .detail-banner-name{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-top: 23px;
+
+    }
+    .crumbs-menu{
+        color: #FFFFFF;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        opacity: 0.5;
+        margin-bottom: 0;
+        font-size: 14px;
+        margin-left: 18px;
+        a{
+            color: #FFFFFF;
+            opacity: 1;
+        }
+    }
+}
+/*详情banner end*/
+/*职教咨询banner start*/
+.banner-box{
+    position: relative;
+    height: 390px;
+    .banner-img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .banner-position{
+        padding: 4.3% 0;
+        position: absolute;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        .banner-tit{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 49.0452px;
+            line-height: 71px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            margin-bottom: 0;
+        }
+        .banner-english{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            opacity: 0.5;
+            margin-bottom: 0;
+        }
+        .banner-desc{
+            font-family: Noto Sans SC;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.2;
+
+        }
+    }
+}
+/*职教咨询banner end*/
+/*院校中心banner end*/
+.Collegescenter-banner{
+    height: 80px;
+    background: #1B6B60;
+    &.zsdetails-banner{
+        height: 110px;
+        .zsdetails-ment{
+            margin:8px 0 0;
+        }
+    }
+    .detail-banner-name{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-top: 23px;
+
+    }
+    .crumbs-menu{
+        color: #FFFFFF;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        opacity: 0.5;
+        margin-bottom: 0;
+        font-size: 14px;
+        margin-left: 18px;
+        a{
+            color: #FFFFFF;
+            opacity:1;
+        }
+    }
+}
+//删除弹窗
+.ModalConfirm-pic{
+    display: block;
+    .ant-modal-body{
+        text-align: center;
+        .anticon{
+            color: #3E78ED!important;
+            float:initial;
+            vertical-align: top;
+            margin-top: 2.5px;
+            margin-right:10px;
+        }
+        .ant-modal-confirm-title{
+            display: inline-block;
+            font-size: 18px;
+            line-height: 26px;
+            color: #333333;
+        }
+        .ant-modal-confirm-content{
+            margin:15px 0 15px!important;
+        }
+        .ant-modal-confirm-btns{
+            .ant-btn{
+                padding:8px 27px;
+                background: #FFFFFF;
+                border: 1px solid #EBEBEB;
+                box-sizing: border-box;
+                border-radius: 5px;
+                height:39px;
+                cursor: pointer;
+                span{
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 22px;
+                    color: #888888;
+                }
+            }
+            .ant-btn.ant-btn-primary,.ant-btn.ant-btn-danger{
+                background: #3E78ED;
+                border-radius: 5px;
+                margin-left:26px;
+                span{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+//分页
+.page_boxfy{
+    display: flex!important;
+    justify-content: flex-end;
+    background-color: #fff;
+    padding: 20px 10px 30px 0px;
+    margin: 0 auto;
+    .ant-select-selection{
+        background: none;
+    }
+    li.ant-pagination-options{
+        float: left;
+    }
+    li{
+        border: none;
+        background: none;
+        text-align: left;
+    }
+    .ant-pagination-prev,.ant-pagination-next{
+        a{
+            border: none;
+            background: none;
+        }
+    }
+}
+//媒体查询
+//如果文档宽度小于 1200 则出现滚动条:
+@media screen and (max-width:1300px) {
+    .Common-content{
+        width: 1300px;
+        margin:0 auto;
+        display: block;
+        //overflow-x: auto;
+    }
+    .headersIndex-warpcenter{
+        padding:0;
+    }
+}
+@media (min-width:1300px) {
+    .Common-content{
+        width: 1300px;
+        margin:0 auto;
+        display: block;
+    }
+    .headersIndex-warpcenter{
+        padding:0;
+        width: 1300px;
+    }
+}
+@media (min-width:1366px){
+    .Common-content{
+        width: 1300px;
+        margin:0 auto;
+        display: block;
+    }
+    .headersIndex-warpcenter{
+        width:100%;
+        min-width:1300px;
+        padding:0 30px;
+    }
+}
+@media (min-width:1440px){
+    .Common-content{
+        width: 1300px;
+        margin:0 auto;
+        display: block;
+    }
+    .headersIndex-warpcenter{
+        width:100%;
+        min-width:1300px;
+        padding:0 30px;
+    }
+}
+@media (min-width:1920px){
+    .Common-content{
+        width: 1200px;
+        margin:0 auto;
+        display: block;
+    }
+    .headersIndex-warpcenter{
+        width:100%;
+        min-width:1300px;
+        padding:0 30px;
+    }
+}

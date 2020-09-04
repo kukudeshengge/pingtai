@@ -1,0 +1,180 @@
+.headersIndex{
+ height: 65px;
+  //overflow-x: auto;
+  left: 0px;
+  top: 0px;
+width: 100%;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.01);
+  z-index: 99;
+  font-family: Noto Sans SC;
+  &::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 2px;
+  }
+  &::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+  }
+  &::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
+    .headersIndex-warp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-top{
+    display: inline-block;
+    padding: 16px 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    height:65px;
+    margin-right: 15px;
+    .header-logo{
+      width: 243px;
+    }
+    .icon-down{
+      width: 62px;
+    }
+  }
+  .header-cont.header-contpage{
+    display: flex;
+    margin-top:16px;
+    flex: 1;
+    .right-text{
+      float:right;
+      width: 94px;
+      margin-top:-2px;
+      a{
+        color: #000;
+        font-size: 16px;
+        margin-left: 15px;
+        font-weight: normal;
+        &.login-btn{
+          text-decoration-line: underline;
+          color: #DE2B2B;
+          margin-left:0;
+        }
+      }
+    }
+    .a-last{
+      display: flex;
+      justify-content: center;
+      .humanName{
+        color: #000;
+        font-size: 14px;
+        margin-right: 15px;
+        font-weight: normal;
+      }
+      .img{
+        width:40px;
+        height:40px;
+        margin-top:-12px;
+        img{
+          border-radius: 50%;
+          width:40px;
+          height:40px;
+        }
+      }
+      .loginout{
+        color: #000;
+        font-size: 14px;
+        margin-left: 15px;
+        font-weight: normal;
+        cursor: pointer;
+      }
+    }
+    .header-right{
+      .gobackmain{
+        width: 66px;
+        height: 23px;
+        background: #961815;
+        border-radius: 3px;
+        margin: 0 15px;
+        color: #fff;
+        font-size: 12px;
+        line-height:23px ;
+        display: inline-block;
+        text-align: center;
+      }
+      .reg-btn{
+        color: #000;
+        font-size: 14px;
+        margin-left: 15px;
+        font-weight: normal;
+        &.login-btn{
+          text-decoration-line: underline;
+          color: #DE2B2B;
+        }
+      }
+    }
+    .header-menu{
+      position: relative;
+      padding-right:10px;
+      margin-right:10px;
+      width: calc(100% - 100px);
+      &::after{
+        position: absolute;
+        border: 1px solid rgba(0,0,0,0.2);
+        top: 4px;
+        height: 14px;
+        right:0;
+        content:"";
+      }
+      .badegred{
+        color: #DE2B2B;
+      }
+    }
+    .header-menu{
+      /*overflow: hidden;*/
+      text-align: right;
+      //padding-right: 20px;
+      white-space: nowrap;
+      flex: 1;
+      a{
+        display: inline-block;
+        padding:0 7px;
+      }
+      li{
+        margin-right:0!important;
+        padding: 0px 0 14px;
+        font-size: 16px;
+        color: #000;
+        font-weight: normal;
+        /*  opacity: .5;*/
+        position: relative;
+        line-height: 20px;
+        &.badeg{
+          color: #DE2B2B;
+          &:before{
+            content:"";
+            background:url("../../assets/img/Subtract.png") no-repeat;
+            background-size: 7px 9px;
+            width:7px;
+            height:9px;
+            position:absolute;
+            right: -10px;
+            top: -5px;
+            opacity: 1;
+          }
+        }
+      }
+      .active{
+        opacity: 1;
+      }
+    }
+  }
+  .img{
+    img{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+  }
+}

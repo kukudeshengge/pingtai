@@ -1,0 +1,65 @@
+.Certificatepage{
+  background: #f6f7fb;
+  overflow: hidden;
+  .details-cont{
+  padding: 40px 0 ;
+.certificatepage-list{
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 25px 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+.details-cont-tit{
+  font-family: Noto Sans SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  position: relative;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 114px;
+    height: 2px;
+    bottom:0px;
+    background: #DE2C2C
+  }
+  .detailszs-icon{
+    position: absolute;
+    width: 48px;
+    right: 0;
+    top: -7px;
+  }
+}
+    .details-cont-list{
+      margin-bottom:25px;
+      display: flex;
+      .details-cont-name{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #333333;
+        margin-right: 10px;
+      }
+      .details-cont-info{
+        flex: 1;
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #888888;
+        line-height: 24px;
+      }
+    }
+  }
+}

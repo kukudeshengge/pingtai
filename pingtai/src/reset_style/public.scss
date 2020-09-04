@@ -1,0 +1,133 @@
+.pointer {
+  cursor: pointer;
+}
+.default{
+  cursor: default;
+}
+//添加子专题 | 编辑 | 删除
+.vertical_j {
+  margin-bottom: 0;
+  span:not(:last-child)::after {
+    content: "|";
+    margin: 0px 7px;
+    color: #ccc;
+    position: relative;
+    bottom: 1px;
+  }
+}
+
+//modal 按钮
+.modal_btn_j {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  .ant-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 91px;
+    height: 39px;
+    &:nth-child(1) {
+      color: #888888;
+    }
+    &:nth-child(2) {
+      background: #3e78ed;
+      border-radius: 5px;
+      color: #fff;
+      margin-left: 30px;
+    }
+  }
+}
+
+//red
+.red {
+  color: red;
+  margin-right: 2px;
+}
+
+//取消排序按钮
+.cancel_sort {
+  border: 1px solid #3e78ed !important;
+  border-radius: 3px;
+  width: 90px;
+  height: 32px;
+  margin-right: 30px;
+  span {
+    color: #3e78ed;
+    font-size: 14px;
+  }
+}
+//确定排序
+.sure_sort {
+  background: #3e78ed !important;
+  border-radius: 3px;
+  color: #fff;
+  margin-right: 20px;
+  border: solid 1px #3e78ed !important;
+}
+//保存按钮
+.save {
+  color: #3e78ed;
+  font-size: 12px;
+}
+
+//tab切换按钮
+.tabs {
+  .ant-tag {
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: solid 1px #f3f3f3;
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #fff;
+    &.active {
+      color: #3e78ed;
+    }
+  }
+}
+
+.ant_blue{
+  background-color: #3E78ED !important;
+  border: solid 1px #3E78ED !important;
+}
+
+.blue{
+  color:#3E78ED ;
+}
+
+.padd {
+  padding: 16px 20px;
+  background-color: #fff;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.m20 {
+  margin-bottom: 20px;
+}
+
+.bg_fff {
+  background-color: #fff;
+}
+
+.batch_box {
+  position: absolute;
+  bottom: 16px;
+  left: 30px;
+  > span {
+    .ant-checkbox-wrapper {
+      margin-right: 10px;
+    }
+    color: #333333;
+  }
+  .ant-btn{
+    margin: 0px 10px;
+  }
+}
+
+.pos_r{
+  position: relative;
+}

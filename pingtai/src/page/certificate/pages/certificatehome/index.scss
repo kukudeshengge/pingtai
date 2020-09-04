@@ -1,0 +1,421 @@
+.certificatehome{
+  background: #f6f7fb;
+  .pattern-modal{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 26px 72px;
+    position: absolute;
+    width: 1200px;
+    box-sizing: border-box;
+    left: 50%;
+ z-index: 80;
+    .pattern-modal-list{
+      margin-bottom: 27px;
+      font-family: Noto Sans SC;
+      font-style: normal;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      .modal-name{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color: #0D1731;
+        opacity: 0.71;
+        margin-bottom: 10px;
+      }
+      .modal-info{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #0D1731;
+        opacity: 0.5;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .certificate-center{
+
+  }
+  .certificate-namebox{
+    text-align: center;
+    position: relative;
+    margin-bottom: 28px;
+
+    &:before{
+      position: absolute;
+      content: '';
+      border: 1px solid #E1E1E1;
+      left: 2%;
+      width: 96%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .certificate-name{
+      display: inline-block;
+      position: relative;
+      padding: 0 50px;
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 35px;
+      color: #0D1731;
+  background: #f6f7fb;
+      margin-bottom: 0;
+      .name-badge{
+        background: #DE2C2C;
+        border-radius:3px;
+        width: 59px;
+        height: 27px;
+        line-height: 27px;
+        color: #fff;
+        font-weight: normal;
+        display: inline-block;
+        text-align: center;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .certificate-docbox{
+    position: relative;
+    margin-top: -78px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 0 35px 35px;
+    margin-bottom: 90px;
+    .certificate-tit{
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 35px;
+      color: #0D1731;
+      padding: 21px 0 9px;
+      border-bottom: 1px solid #E1E1E1;
+      margin-bottom: 38px;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 125px;
+        height: 2px;
+        background: #DE2C2C;
+      }
+    }
+    .certificate-doc{
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0D1731;
+      opacity: 0.6;
+      margin-bottom:25px;
+    }
+  }
+  /*三教合一start*/
+  .certificate-pattern{
+    margin-bottom: 85px;
+  }
+  .pattern-cont{
+    &.pattern-row{
+      padding: 0 15px;
+    }
+    .pattern-cont-li{
+      width:32%;
+      margin-right:2%;
+      &:nth-child(3n){
+        margin-right:0;
+      }
+    }
+    .pc-slide {
+      width:100%;
+      margin: 0 auto;
+      overflow: hidden;
+      .preview {
+        width: 100%;
+        margin-top: 10px;
+        position: relative;
+        background: none;
+      }
+      .preview .swiper-main {
+        display: block;
+        margin:0 auto;
+        width:100%;
+        overflow: hidden;
+      }
+      .view{
+        padding: 26px 72px;
+        background: #FFFFFF;
+        border-radius: 7px;
+        min-height:200px;
+        .swiper-slide{
+          .pattern-modal-list{
+            margin-bottom: 35px;
+            font-family: Noto Sans SC;
+            font-style: normal;
+            &:last-child{
+              margin-bottom: 0;
+            }
+            .modal-name{
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 20px;
+              color: #0D1731;
+              opacity: 0.71;
+              margin-bottom: 10px;
+            }
+            .modal-info{
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              color: #0D1731;
+              opacity: 0.5;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .view .swiper-main {
+        width:100%;
+        display: block;
+        overflow-x: hidden;
+      }
+      .view::before{
+        display: none;
+      }
+      .view .arrow-left {
+        //background: url(../../../assets/portal/index/left.png) no-repeat left top;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        margin-top: -48.5px;
+        width: 35px;
+        height: 35px;
+        z-index: 10;
+      }
+      .view .arrow-right {
+        //background: url(../../../assets/portal/index/right-active.png) no-repeat left top;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -48.5px;
+        width: 35px;
+        height: 35px;
+        z-index: 10;
+      }
+      .preview .swiper-wrapper{
+        justify-content: space-around;
+      }
+      .preview .swiper-slide {
+        width:283px;
+        cursor:pointer;
+        padding:0 40px 30px;
+        position: relative;
+        .img{
+          width:165px;
+          height:118px;
+          display: block;
+          margin:0 auto 16px;
+          position: relative;
+          .icon{
+            position: absolute;
+            left:-4px;
+            bottom: -1px;
+            width:51px;
+            height:44px;
+          }
+          img{
+            width:100%;
+            height:100%;
+          }
+        }
+        .img::after{
+          position: absolute;
+          left:0;
+          top:0;
+          width:100%;
+          height:100%;
+          content:"";
+          background: linear-gradient(0deg, rgba(114, 114, 114, 0.15), rgba(114, 114, 114, 0.15));
+          box-shadow: 0px 5.2395px 9.60576px rgba(0, 0, 0, 0.1);
+        }
+        .p{
+          font-family: Noto Sans SC;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          color: #0D1731;
+          width: 203px;
+          margin: 0 auto;
+        }
+      }
+      .preview .swiper-slide.active-nav::after{
+        position: absolute;
+        left:50%;
+        bottom:0px;
+        margin-left:-20px;
+        content:"";
+        width:0;
+        height:0;
+        border-right:16px solid transparent;
+        border-left:16px solid transparent;
+        border-bottom:16px solid #ffffff;
+      }
+      .preview .slide6 {
+        width:283px;
+      }
+      .preview .arrow-left {
+        //background: url(../../../assets/portal/index/left.png) no-repeat left top;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        margin-top: -48.5px;
+        width: 35px;
+        height: 35px;
+        z-index: 10;
+      }
+      .preview .arrow-left:hover{
+        //background: url(../../../assets/portal/index/left-active.png) no-repeat left top;
+      }
+      .preview .arrow-right {
+        //background: url(../../../assets/portal/index/right.png) no-repeat left top;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -48.5px;
+        width: 35px;
+        height: 35px;
+        z-index: 10;
+      }
+      .preview .arrow-right:hover{
+        //background: url(../../../assets/portal/index/right-active.png) no-repeat left top;
+      }
+      .preview img {
+        padding: 1px;
+        width:100%;
+        height:100%;
+      }
+      .preview .active-nav img {
+        padding: 0;
+        width:100%;
+        height:100%;
+      }
+      .preview .active-nav{
+        .img::after{
+          background:none;
+          display: none;
+        }
+      }
+    }
+
+    .pattern-list{
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      padding: 18px 24px 24px;
+      min-height:284px;
+      .zs-icon{
+        height: 66px;
+        margin-bottom: 17px;
+      }
+      .pattern-name{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        color: #0D1731;
+        margin-bottom: 10px;
+      }
+      .pattern-info{
+        font-family: Noto Sans SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #0D1731;
+        opacity: 0.6;
+      }
+    }
+    .book-list{
+      position: relative;
+      text-align: center;
+      .book-listbox{
+        display: inline-block;
+        position: relative;
+        margin-bottom: 24px;
+        .zs-img{
+          width: 156px;
+        }
+        .book-icon{
+          position: absolute;
+          bottom: 0px;
+          left:0px;
+        }
+      }
+      .zs-name{
+  font-family: Noto Sans SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #0D1731;
+  width: 203px;
+  margin: 0 auto;
+}
+
+    }
+  }
+  /*三教合一end*/
+  .certificate-bottom{
+    background: #CA4A21;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top:-160px;
+    .bottom-item{
+      margin: 164px 86px 94px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      text-align: center;
+      width: 394px;
+      padding: 33px 50px 27px;
+      font-family: Noto Sans SC;
+      font-style: normal;
+      font-weight: bold;
+      .bottom-name{
+
+        font-size: 18px;
+        line-height: 26px;
+        color: #333333;
+        margin-bottom: 29px;
+      }
+      .declare-btn{
+        width: 100%;
+        background: #DE2B2B;
+        border-radius: 6px !important;
+        border: none;
+        height: 34px;
+        line-height: 34px;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.51em;
+        color: #FFFFFF;
+        &.query-btn{
+          background: #208FCD;
+        }
+      }
+    }
+  }
+}
